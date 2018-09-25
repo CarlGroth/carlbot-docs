@@ -8,6 +8,10 @@ description: >-
 
 ## How do I read this wiki
 
+{% hint style="danger" %}
+Do not literally type out &lt;&gt; \[\] \| etc
+{% endhint %}
+
 Each category of commands have their own page which can be found on the sidebar.   
 **Aliases**: \[foo\|bar\] means that you can use either foo or bar  
 **Optional**: \[foo\] Means that this argument can be ignored, this is usually for clearing settings or for using yourself/the current channel  
