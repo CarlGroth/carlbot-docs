@@ -7,8 +7,10 @@ description: You're limited to up to 15 prefixes at once excluding the mention.
 ​
 
 {% hint style="danger" %}
-!prefix clear leaves you without a prefix meaning you have to mention the bot to set a new one. !prefix set &lt;prefix&gt; is most likely a better choice in most cases
+**!prefix clear** leaves you without a prefix meaning you have to mention the bot to set a new one. **!prefix set &lt;prefix&gt;** is most likely a better choice in most cases
 {% endhint %}
+
+
 
 By default this is set to ! and ?
 

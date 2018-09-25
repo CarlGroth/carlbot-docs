@@ -1,6 +1,10 @@
 # Table of contents
 
 * [Home](README.md)
-* [Logging](logging.md)
 * [Prefixes](prefixes.md)
+
+## Logging
+
+* [Logging](logging-1/logging.md)
+* [Modlogs](logging-1/modlogs.md)
 
