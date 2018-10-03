@@ -1,4 +1,4 @@
-# Tags
+# Tags \(custom commands\)
 
 {% hint style="info" %}
 Getting tags after they're created can be done without using !tag &lt;name&gt; simply do !&lt;name&gt;
