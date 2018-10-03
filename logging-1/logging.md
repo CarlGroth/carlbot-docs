@@ -29,7 +29,7 @@ The command **!log aio** automatically creates a category, fills it with five ch
 
 ## Event list
 
-Each event that Carl-bot logs has an associated value and channel. The value is only there for ultra-nerds, don't worry about it.
+Each event that Carl-bot logs has an associated value and channel. The values are only there for ultra-nerds, don't worry about it.
 
 
 
