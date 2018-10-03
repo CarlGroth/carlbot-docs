@@ -8,15 +8,15 @@ description: 'If you have modlogs set up, most of these commands will be logged 
 
 | Name | Example | Usage |
 | :--- | :--- | :--- |
-| **ban &lt;@member or ID&gt; \[reason\]** | !ban 102130103012 raiding | Bans the member from the server. This works even if the member isn't on the server. If you supply a reason, it will show up in the modlogs and in discord's built in audit log |
+| **ban &lt;@member/ID&gt; \[days=2\] \[reason\]** | !ban 102130103012 raiding | Bans the member from the server. This works even if the member isn't on the server. If you supply a reason, it will show up in the modlogs and in discord's built in audit log. Days refer to the amount of days to purge messages from them. |
 | **muterole &lt;role&gt;** | !muterole kids table | Selects a role to use for the mute command |
 | **muterole create \[name='muted'\]** | !muterole create shhh | Creates a new role, adds the role as a channel override with "send messages" turned off for all text channels and sets it as the server's muterole. |
 | **mute &lt;@member&gt; \[time \[reason\]\]** | !mute @Carl\#0001 20h45m spamming | Mutes a member \(using the muterole, read above\) for the specified time. If no time is given, it will mute indefinitely. If a reason is given, it shows up in the mod logs. |
 | **unmute &lt;@member&gt;** | !unmute @Carl\#0001 | Unmutes a member |
 | **kick &lt;@member&gt; \[reason\]** | !kick @Carl\#0001 racism | Kicks a member. Reason shows up in the modlogs and in audit logs |
-| **softban &lt;@member&gt; \[reason\]** | !softban @Carl\#0001 go away | Bans and immediately unbans a member to clear 48 hours of message history. |
-| **tempban &lt;@user&gt; \[reason\]** | !tempban @Carl\#0001 20h big ugly | Bans a user for the specified duration regardless if they're on the server or not. |
-| **massban &lt;@members...&gt;** | !massban 123124151241 @Carl\#0001 12152252634 123123901231 | Bans more than one person, each ban shows up in the modlog. |
+| **softban &lt;@member&gt; \[days=2\]\[reason\]** | !softban @Carl\#0001 go away | Bans and immediately unbans a member to clear 48 hours of message history. |
+| **tempban &lt;@user&gt; \[days=2\]\[reason\]** | !tempban @Carl\#0001 20h big ugly | Bans a user for the specified duration regardless if they're on the server or not. |
+| **massban \[days=2\]&lt;@members...&gt;** | !massban 123124151241 @Carl\#0001 12152252634 123123901231 | Bans more than one person, each ban shows up in the modlog. |
 | **warn &lt;@member&gt; \[reason\]** | !warn @Carl\#0001 do not spam reactions | Warns a user, pms them the reason and posts it to the modlog. |
 | **removewarn &lt;case\_id&gt;** | !removewarn 17 | Removes a warning by its case id. |
 | **clearwarn &lt;@member&gt;** | !clearwarn @Carl\#0001 | Removes all warnings from a user. |
