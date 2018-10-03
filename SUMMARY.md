@@ -1,6 +1,8 @@
 # Table of contents
 
 * [Home](README.md)
+* [FAQ](faq.md)
+* [Basic bot setup](basic-bot-setup.md)
 
 ## Logging
 

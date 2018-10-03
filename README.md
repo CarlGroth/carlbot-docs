@@ -23,9 +23,7 @@ Additionally, the bot uses what are called _converters_ which makes specifying r
 
 ##  How do I set up reaction roles?
 
-[Check out the reaction roles page](https://github.com/CarlGroth/Carl-Bot/wiki/Reaction-Roles) There is an example at the bottom of the page of me setting up reaction roles for my bot server that a lot of people seem to find useful.
-
-Once you're strong enough, save the world:
+[Check out the reaction roles page](https://carlbot.gitbook.io/docs/roles/reaction-roles) There is an example at the bottom of the page of me setting up reaction roles for my bot server that a lot of people seem to find useful.
 
 ## How do I actually configure the bot?
 
