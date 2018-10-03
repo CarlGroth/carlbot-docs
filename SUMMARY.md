@@ -34,3 +34,18 @@
 
 * [Music](premium/music.md)
 
+## Utilities
+
+* [Announcements](utilities/announcements.md)
+* [Reminders/Timers](utilities/reminders-timers.md)
+* [Highlights/pager](utilities/highlights-pager.md)
+* [Suggestions](utilities/suggestions.md)
+* [Starboard](utilities/starboard.md)
+* [Uncategorized utilities](utilities/uncategorized-utilities.md)
+* [Twitch notifications](utilities/twitch-notifications.md)
+
+## Misc
+
+* [Animals](misc/animals.md)
+* [Silly/useless](misc/silly-useless.md)
+

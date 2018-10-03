@@ -4,15 +4,13 @@
 
 | Name | Example | Usage |
 | :--- | :--- | :--- |
-| **ignore \[channel\]\[command\]**  | !ignore \#general temp home | If no channel is specified, the current channel is ignored. If a command is supplied, it will ignore that command in the specified channel. Manage server bypassese this. |
+| **ignore \[channels...\]\[commands...\]**  | !ignore \#general \#log \#adminsonly "temp home" ping activity | If no channel is specified, the current channel is ignored. If a command is supplied, it will ignore that command in the specified channel. Manage server bypassese this. You can supply more than one channel and or command. |
 | **ignore server** | -- | This is essentially the same as making the entire bot mod-only |
-| **ignore all \[command\]**  | !ignore all pc top | This is equal to typing !ignore channel command subcommand in all channels the bot can see, useful if you want to ignore a command in all channels except for one. This will not work for channels created in the future. If the command is already ignored in a channel, this will unignore it. |
-| **unignore \[channel\] \[command\]** | !unignore \#general temp | Reverses what !ignore does |
+| **ignore all \[commands...\]**  | !ignore all "pc top" ping | This is equal to typing !ignore channel command subcommand in all channels the bot can see, useful if you want to ignore a command in all channels except for one. This will not work for channels created in the future. If the command is already ignored in a channel, this will unignore it. |
+| **unignore \[channels...\] \[command...\]** | !unignore \#general \#log temp ping | Reverses what !ignore does |
 | **unignore all** | -- | Unignores all channels \(this does not take ignored commands into account\) |
-| **disable &lt;command&gt;** | !disable pc top | This really disables the command globally from the server, not even manage server bypasses this. |
-| **disablemany &lt;commands...&gt;** | !disablemany "pc top" cat dog "tag get" | Like !disable except it takes more than one command |
-| **enable &lt;command&gt;** | !enable pc top | Enables a previously disabled command. |
-| **enablemany &lt;commands...&gt;** | !enablemany "pc top" cat dog "tag get" | Like !enable except it takes more than one command |
+| **disable &lt;commands...&gt;** | !disable "pc top" rr temp | This really disables the command globally from the server, not even manage server bypasses this. |
+| **enable &lt;commands...&gt;** | !enable "pc top" ping "tag info" | Enables one or more previously disabled commands. |
 | **enable all** | -- | Sets all commands to enabled. |
 | **disable all** | -- | Sets all commands to disabled. |
 | **enable mod** | -- | Enables all moderation commands |

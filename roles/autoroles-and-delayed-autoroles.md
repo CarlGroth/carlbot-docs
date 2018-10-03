@@ -17,9 +17,9 @@ If you have autoroles and reassigned roles, the member will receive the superset
 
 #### Delayed autoroles
 
-| Name | Aliases | Args | Example | Usage |
-| :--- | :--- | :--- | :--- | :--- |
-| **\[tr\|timedrole\]** | tr | -- | -- | Shows the roles being assigned with their delay |
-| **timedrole \[add\|+\] &lt;time&gt; &lt;role&gt;** | + | \ \ | !timedrole add 42h19m22s fortnite expert | Adds a role to be added with a delay |
-| **timedrole remove &lt;role&gt;** | -- | \ | !autorole remove newbie | Removes the role from being automatically assigned and also cancels any pending roles \(Note: all pending delayed roles with the same delay as the removed role will be removed, sorry!\) |
+| Name | Example | Usage |
+| :--- | :--- | :--- |
+| **\[tr\|timedrole\]** | -- | Shows the roles being assigned with their delay |
+| **timedrole \[add\|+\] &lt;time&gt; &lt;role&gt;** | !timedrole add 42h19m22s fortnite expert | Adds a role to be added with a delay |
+| **timedrole remove &lt;role&gt;** | !autorole remove newbie | Removes the role from being automatically assigned and also cancels any pending roles \(Note: all pending delayed roles with the same delay as the removed role will be removed, sorry!\) |
 
