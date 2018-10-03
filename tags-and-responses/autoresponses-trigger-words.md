@@ -12,8 +12,8 @@ Autoresponses are not custom commands, if you want things that are triggered by 
 | **ar \[strict\|s\] &lt;trigger&gt; &lt;response&gt;** | !ar strict "its coming home" reactu{⚽️} | This works a lot like normal ar add with one vital exception: it looks for exact sequences of words, rather than substrings. What this means is that if you add the strict trigger `hell` and someone says `hello` it will not match, it also means that triggers with more than one word requires an exact match per word \(this is a lot more reasonable to use than this text makes it out to be\). |
 | **ar \[exact\|e\] &lt;trigger&gt; &lt;response&gt;** | !ar exact "hey guys" Hello! | This matches if the content of a message is the same as the trigger. Some exceptions such as punctuation and capitalization applies. |
 | **ar \[startswith\|sw\] &lt;trigger&gt; &lt;response&gt;** | !ar sw "how do i" read the wiki! | Matches if the start of the message matches |
-| **ar \[endswith\|ew\] &lt;trigger&gt; &lt;response&gt;** | !ar ew ,,, What's wrong with you? Get some help | Like startswith except if it ends with it. |
-| **ar \[remove\|del\|-\|delete\] &lt;trigger&gt;** | !ar del "its coming home" | Removes an autoresponse |
+| **ar \[endswith\|ew\] &lt;trigger&gt; &lt;response&gt;** | !ar ew "i think" no you don't | Like startswith except if it ends with it. |
+| **ar \[remove\|del\|-\|delete\] &lt;trigger&gt;** | !ar del its coming home | Removes an autoresponse |
 | **ar clear** | -- | Removes all autoresponses \(with a prompt\) |
 | **ar \[channel\|cs\] &lt;trigger&gt; &lt;response&gt;** | !ar channel "king crimson" HOW DOES KING CRIMSON WORK I DON'T UNDERSTAND | Like a normal autoresponse except it only listens in the channel you used the command in. **Note:** This will bypass any channel ignores \(member ignores still work\). |
 | **ar ignore &lt;members or channels...&gt;** | !ar ignore @Carl\#0001 @Kintark\#0588 \#general  @idiotuser\#1337 \#welcome | Blocks channels and or users from triggering responses |
