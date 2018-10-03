@@ -1,7 +1,7 @@
 # Suggestions
 
 {% hint style="info" %}
-All commands required !suggestion channel \[\#channel\] to have been used in order to work, please start with that.
+All commands require !suggestion channel \[\#channel\] to have been used in order to work, please start with that.
 {% endhint %}
 
 | Name | Example | Usage |
