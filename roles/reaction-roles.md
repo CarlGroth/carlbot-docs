@@ -1,3 +1,9 @@
+---
+description: >-
+  Reaction roles is a way to let members assign roles to themselves in a safe,
+  fast, easy to understand and unobtrusive way
+---
+
 # Reaction Roles
 
 To remove a bot message, simply delete the message like you would delete any other message, it's handled by the bot automatically.

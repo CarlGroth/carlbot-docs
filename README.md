@@ -1,7 +1,5 @@
 ---
-description: >-
-  This is where you can find the documentation for all of its commands and
-  quirks.
+description: The complete guide for Carl-bot
 ---
 
 # Home
