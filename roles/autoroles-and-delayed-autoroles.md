@@ -13,7 +13,7 @@
 | **autorole \[bl\|blacklist\] &lt;roles...&gt;** | !autorole bl admin newbie | Prevents the mentioned roles from being reassigned |
 | **autorole unblacklist &lt;roles...&gt;** | !autorole unblacklist "fortnite expert" admin | Undoes what !autorole bl does |
 
-If you have autoroles and reassigned roles, the member will receive the superset of both.
+If you have autoroles and reassigned roles, the member will receive the union of both.
 
 #### Delayed autoroles
 
