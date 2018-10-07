@@ -19,7 +19,7 @@
 ## Moderation
 
 * [Moderation](moderation/moderation.md)
-* [Anti-raid and mentionspam](moderation/anti-raid-and-mentionspam.md)
+* [Automod](moderation/anti-raid-and-mentionspam.md)
 
 ## Tags and responses
 
