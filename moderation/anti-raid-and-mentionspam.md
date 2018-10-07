@@ -21,6 +21,8 @@ The punishments available are
 * **defer** - Sends the context to the drama channel and lets mods vote on it 
 * **message** - Sends a message to the channel warning the member 
 * **dm/pm** - Sends a private message to the offender
+
+You can add more than one punishment by separating them with commas.
 {% endhint %}
 
 | Name | Example | Usage |
