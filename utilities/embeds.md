@@ -1,0 +1,20 @@
+# Embeds
+
+{% hint style="info" %}
+!cembed and !ecembed take raw json as their arguments. It's recommended to either use [leovoel's embed visualizer](https://leovoel.github.io/embed-visualizer/) or [Nadekobot's embed builder](https://embedbuilder.nadekobot.me/) for these
+{% endhint %}
+
+| Name | Example | Usage |
+| :--- | :--- | :--- |
+| !embed \[channel\] &lt;color&gt; &lt;title \| description&gt; | !embed \#get-roles eeaaee I'm a title \| and I'm the description | Creates a simple embed with the colored strip, a title and a description. |
+| **!editembed &lt;msg\_id&gt; &lt;title \| description&gt;** | !editembed 32538901189123 I'm a new title \| and I'm an updated description | Edits a message in the same format you create basic embeds |
+| **!rr color &lt;msg\_id&gt; &lt;color&gt;** | !rr color 182923492394927 eeeaaa | Edits the color strip on the left side of the embed |
+| !cembed  \[channel\] &lt;json&gt; | !cembed \#secret {"title": "hello world"} | Also accepts a pastebin link since it can be bigger than 2000 characters. |
+| **!ecembed &lt;msg\_id&gt; &lt;channel&gt; &lt;json&gt;** | !ecembed 31203123191 \#secret {"title": "Woah, a new title!"} | Edits ANY embed the bot has posted. |
+| !embedsource &lt;msg\_id&gt; \[channel\] | !embedsource 9312838121123 \#bilderberg | Gets the raw json from an embed |
+|  |  |  |
+
+## 
+
+
+

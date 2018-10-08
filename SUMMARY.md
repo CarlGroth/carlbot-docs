@@ -41,6 +41,7 @@
 * [Starboard](utilities/starboard.md)
 * [Uncategorized utilities](utilities/uncategorized-utilities.md)
 * [Twitch notifications](utilities/twitch-notifications.md)
+* [Embeds](utilities/embeds.md)
 
 ## Premium
 
