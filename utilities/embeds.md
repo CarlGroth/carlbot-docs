@@ -12,7 +12,6 @@
 | !cembed  \[channel\] &lt;json&gt; | !cembed \#secret {"title": "hello world"} | Also accepts a pastebin link since it can be bigger than 2000 characters. |
 | **!ecembed &lt;msg\_id&gt; &lt;channel&gt; &lt;json&gt;** | !ecembed 31203123191 \#secret {"title": "Woah, a new title!"} | Edits ANY embed the bot has posted. |
 | !embedsource &lt;msg\_id&gt; \[channel\] | !embedsource 9312838121123 \#bilderberg | Gets the raw json from an embed |
-|  |  |  |
 
 ## 
 
