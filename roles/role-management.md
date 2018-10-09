@@ -13,7 +13,7 @@ These commands are for administrators to manage role assignments in their server
 | **!role all &lt;role&gt;** | !role all peon | Adds a role to every single member. |
 | **!role bots &lt;role&gt;** | !role bots metallic overlord | Adds a role to every single bot. |
 | **!role humans &lt;role&gt;** | !role humans flesh haver | Adds a role to all non-bots |
-| **!role in &lt;base\_role&gt; &lt;assigned\_role&gt;** | !role in "movie fan" game of thrones | Adds a role \(\\) to all members with the \ role. In the previous example, all members with the movie fan role would be assigned the game of thrones role. |
+| **!role in &lt;base\_role&gt; &lt;assigned\_role&gt;** | !role in "movie fan" game of thrones | Adds a role \(&lt;assigned\_role&gt;\) to all members with the &lt;base\_role&gt; role. In the previous example, all members with the movie fan role would be assigned the game of thrones role. |
 | **!role rall &lt;role&gt;** | !role rall admin | Removes a role from all members. |
 | **!role rbots &lt;role&gt;** | !role rbots people | Removes a role from all bots. |
 | **!role rhumans &lt;role&gt;** | !role rhumans metallic | Removes a role from all humans. |
