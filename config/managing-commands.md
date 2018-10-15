@@ -1,6 +1,8 @@
 # Managing commands
 
-
+{% hint style="info" %}
+Restricted commands require a bot channel to be set up with `!set bot <channel>`
+{% endhint %}
 
 | Name | Example | Usage |
 | :--- | :--- | :--- |
@@ -21,6 +23,7 @@
 | **plonks** | -- | Displays all plonked users. |
 | **restrict &lt;command&gt;** | !restrict define | This requires a bot channel to utilize. Makes it so that if the command is used outside of the bot channel, the bot will ping the user in the botchannel and give the results there instead. |
 | **unrestrict &lt;command&gt;** | !unrestrict d | Unrestricts it. Like all commands where you pass in a command, aliases work just as well. |
+| **set bot &lt;channel&gt;** | !set bot \#botspam | Sets the channel used for restricted commands to be redirected to. |
 | **modonly &lt;command&gt;** | !modonly echo | Makes a command usable by mods only |
 | **unmodonly &lt;command&gt;** | !unmodonly dog | Removes a command from the modonly list |
 | **modrole &lt;role&gt;** | !modrole bot commander | Makes it so that any member with the specified role is seen as a moderator by the bot. This does not allow members with this role to kick, ban, mute, warn or any variation of these commands. |
