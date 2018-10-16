@@ -1,7 +1,3 @@
----
-description: 'If you have modlogs set up, most of these commands will be logged there.'
----
-
 # Moderation
 
 

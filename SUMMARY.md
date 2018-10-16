@@ -12,9 +12,9 @@
 
 ## Logging
 
-* [Logging](logging-1/logging.md)
-* [Modlogs](logging-1/modlogs.md)
-* [Welcome and leave messages](logging-1/welcome-and-leave-messages.md)
+* [Logging](logging/logging.md)
+* [Modlogs](logging/modlogs.md)
+* [Welcome and leave messages](logging/welcome-and-leave-messages.md)
 
 ## Moderation
 

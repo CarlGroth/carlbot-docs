@@ -1,7 +1,3 @@
----
-description: You're limited to up to 15 prefixes at once excluding the mention.
----
-
 # Prefixes
 
 ​

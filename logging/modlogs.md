@@ -1,9 +1,3 @@
----
-description: >-
-  Modlogs differ from normal logs in the sense that they only show moderation
-  actions, with more detailed information, better support for infractions, and
----
-
 # Modlogs
 
 

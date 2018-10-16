@@ -1,7 +1,3 @@
----
-description: Automod lets you automate the boring moderation stuff!
----
-
 # Automod
 
 {% hint style="danger" %}

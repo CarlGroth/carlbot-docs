@@ -1,7 +1,5 @@
 # Role management
 
-
-
 These commands are for administrators to manage role assignments in their servers. The permissions required for each of these are simply to be able to assign them normally, with an exception made to !rank and !ranks as they are meant for users. [This page does not go over reaction roles, click this text to go there instead](https://github.com/CarlGroth/Carl-Bot/wiki/Reaction-Roles)
 
 | Name | Example | Usage |
@@ -24,5 +22,6 @@ These commands are for administrators to manage role assignments in their server
 | **!removerank &lt;roles...&gt;** | !removerank fortnite "f1 fanatic" | Removes a rank so that it can no longer be self assigned. |
 | !rank &lt;role&gt; | !rank fortnite | Adds/removes the role to the person who used the command. |
 | !ranks | -- | Lists all whitelisted ranks. |
-|  **role create &lt;name&gt; \[color\] \[mentionable=False\] \[hoist=False\]** | !role create "cool dude" eeaaee true true | Creates a role. Hoist decides if it shows up in the sidebar or not. |
-| **!allroles | -- | Displays list of roles in the server and member count assigned to the role.
+| **role create &lt;name&gt; \[color\] \[mentionable=False\] \[hoist=False\]** | !role create "cool dude" eeaaee true true | Creates a role. Hoist decides if it shows up in the sidebar or not. |
+| **!allroles** | -- | Displays list of roles in the server and member count assigned to the role. |
+

@@ -1,7 +1,3 @@
----
-description: The complete guide for Carl-bot
----
-
 # Home
 
 ## How do I read this wiki
