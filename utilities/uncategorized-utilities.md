@@ -20,4 +20,5 @@
 | \[flip\|coin\] | -- | Flips a coin |
 | \[g\|google\] | !g umami wiki | Like googling, safesearch is set to medium. |
 | avatar &lt;member/ID&gt; | !avatar | Shows the avatar of a mentioned user or yourself if you don't. Works even if the user doesn't share a server with the bot. Also works in dms, you creeps. |
+| serverinfo | -- | Displays server information. |
 
