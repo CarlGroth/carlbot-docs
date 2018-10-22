@@ -18,4 +18,5 @@ All commands require !suggestion channel \[\#channel\] to have been used in orde
 | **deny &lt;id&gt; \[reason\]** | !deny 6 This is literally impossible due to how discord works | Denies a suggestion |
 | **consider &lt;id&gt; \[reason\]** | !consider 4 I'm not sure if this would really add that much, but if the people want it... | Marks a suggestion as being considered. |
 | **implemented &lt;id&gt; \[reason\]** | !implemented 5 the command is !youtubesub \ | Marks a suggestion as implemented |
+| **!suggestion anon** | -- | Toggles member's name and avatar not appearing when making a suggestion. \(Not retroactive\) |
 
