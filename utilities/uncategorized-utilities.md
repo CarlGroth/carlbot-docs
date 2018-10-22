@@ -128,9 +128,9 @@
     </tr>
     <tr>
       <td style="text-align:left">
-        <p>spacemychannel</p>
-        <p>
-          <channel>
+        <p><b>spacemychannel</b>
+        </p>
+        <p><b><channel></b>
         </p>
       </td>
       <td style="text-align:left">!spacemychannel #test-channel</td>
