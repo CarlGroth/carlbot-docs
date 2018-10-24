@@ -56,7 +56,8 @@ You can add more than one punishment by separating them with commas.
 | **\[am\|automod\]** | -- | Shows an overview of the current automod settings |
 | **automod drama &lt;channel&gt;** | !automod drama \#watcher |  Lets you set up a channel where mods can make decisions on rule breakers through reactions. This channel should obviously not be made public. |
 | **automod log &lt;channel&gt;** | !automod log \#automod |  Automod actions are pretty different in nature compared to normal modlogs, so with this command you can set the command where automatic actions go. |
-| **automod \[media\|mo\] &lt;channels...&gt;** | !am mo \#show-off |  Some servers have channels where you're just meant to post images/links, this command lets you enforce that. |
+| **automod \[media\|mo\] &lt;channels...&gt;** | !am mo \#show-off | Some servers have channels where you're just meant to post images/links, this command lets you enforce that. |
+| **automod \[unmedia\|umo\|unmo**\] **&lt;channels...&gt;** | !am umo \#show-off | Removes the media-only restriction from one or more channels. |
 | **automod \[whitelist\|wl\] &lt;roles/channels&gt;** |  !am wl mods \#bilderberg | Whitelists roles and or channels so that automod ignores messages posted in/by them. |
 | **automod \[unwhitelist\|unwl\| &lt;roles/channels&gt;** | -- | Undoes what the above command does. |
 | **automod \[warn\|threshold\] &lt;limit&gt;** | !am warn 5 |  Sets the warn threshold for a punishment to be made |
