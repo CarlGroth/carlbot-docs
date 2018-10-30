@@ -1,6 +1,6 @@
 # Role management
 
-These commands are for administrators to manage role assignments in their servers. The permissions required for each of these are simply to be able to assign them normally, with an exception made to !rank and !ranks as they are meant for users. [This page does not go over reaction roles, click this text to go there instead](https://github.com/CarlGroth/Carl-Bot/wiki/Reaction-Roles)
+These commands are for administrators to manage role assignments in their servers. The permissions required for each of these are simply to be able to assign them normally, with an exception made to !rank and !ranks as they are meant for users. [This page does not go over reaction roles, click this text to go there instead](https://docs.carl.gg/roles/reaction-roles)
 
 | Name | Example | Usage |
 | :--- | :--- | :--- |
