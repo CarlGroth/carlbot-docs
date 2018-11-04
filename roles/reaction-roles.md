@@ -11,7 +11,7 @@ Each role can only be assigned once per server.
 | **rr \[setup\|make\]** | -- | Starts the interactive setup to get you started with reaction roles |
 | rr \[list\|show\] | -- | Shows the emoji-role pairs and their associated message id, useful for rr add |
 | **rr edit &lt;msg\_id&gt; &lt;title \| description&gt;** | !rr edit 23094823094823490 Games \| Click on the games you want to be notified by | Edits the title and description, works like it does in the make command |
-| **rr remove** | !rr remove fortnite | Removes an emoji-reaction pair from the specified bot message \(and more importantly, from the database\) |
+| **rr remove &lt;role&gt;** | !rr remove fortnite | Removes an emoji-reaction pair from the specified bot message \(and more importantly, from the database\) |
 | **rr move &lt;base\_id&gt; &lt;target\_id&gt;** | !rr move 493018654405951488 351050906189692938 | Moves the reaction roles from one message to another. This works even if the message was purged \(using the message id found in !rr show\). |
 | **rr clear \[msg\_id\]** | !rr clear 12343323615155 | If you specify a message id, it removes all the roles from the message, if you don't, it will remove **all** reaction roles from the server. |
 | **rr add &lt;msg\_id&gt; &lt;emoji&gt; &lt;role&gt;** | !rr add 1238901239812 :angel: pure | Adds the emoji-role pair to the message and the database. **NOTE:** This message id can belong to other people than carlbot, and the same emoji can be used for different messages for different roles \(useful for regional roles\) |
