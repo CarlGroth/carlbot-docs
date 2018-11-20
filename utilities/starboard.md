@@ -13,6 +13,7 @@ Starboard is a way to 'star' \(think like, upvote etc.\) a message and have it s
 | **star nsfw** | -- | Toggles nsfw stars. With this enabled, posts starred in channels marked as nsfw will embed |
 | **star self** | -- | Toggles being able to star your own posts |
 | star show &lt;id&gt; | !star show 463069834968825856 | Shows a starred post from the starboard in the channel the command was used in, you can find the id in the footer of each starboard entry. |
+| star jump | !star jump |  Will add a jump link to the starred message. |
 
 Star messages, have them posted to a channel. It's a fun way to save funny/interesting messages in a place where everyone can see them.
 
