@@ -24,4 +24,5 @@ These commands are for administrators to manage role assignments in their server
 | !ranks | -- | Lists all whitelisted ranks. |
 | **role create &lt;name&gt; \[color\] \[mentionable=False\] \[hoist=False\]** | !role create "cool dude" eeaaee true true | Creates a role. Hoist decides if it shows up in the sidebar or not. |
 | **!allroles** | -- | Displays list of roles in the server and member count assigned to the role. |
+| !role info &lt;role&gt; | !role info fortnite | Displays the role's Name, Member Count, Color, and when it was created. |
 
