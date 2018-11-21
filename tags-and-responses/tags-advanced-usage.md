@@ -6,8 +6,6 @@ As of writing this, these blocks are:
 
 **Random lists** `#{comma, separated,#{nested args}}`
 
-**Unique random list variables** `#variablename{comma, separated, values}`
-
 Unlike random lists assigned to a variable through variable blocks, unique random lists randomly pick an element each time. This allows for some very nice commands, see the link at the bottom.
 
 **Math blocks** `m{1 + 1 / (3 ^ 9)}`
@@ -67,6 +65,8 @@ works like require but the other way. As soon as it sees an entity that it doesn
 **Example:** `blacklist{muted, Carl#0001} Wow, this tag really is for cool people only`
 
 **variable assignment** `!{foo=This can be anything}`
+
+**Unique random list variables** `#variablename{comma, separated, values}`
 
 In addition to these blocks, it also comes with a few default arguments. These are:
 
