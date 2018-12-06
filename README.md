@@ -6,6 +6,10 @@
 Do not literally type out &lt;&gt; \[\] \| etc
 {% endhint %}
 
+{% hint style="info" %}
+When referencing commands, Mod commands are in **bold**. 
+{% endhint %}
+
 Each category of commands has their own page which can be found on the sidebar.  
 **Aliases**: \[foo\|bar\] means that you can use either foo or bar  
 **Optional**: \[foo\] means that this argument can be ignored \(this is usually for clearing settings or for using yourself/the current channel\)  
