@@ -7,6 +7,7 @@
 | **ban &lt;@member/ID&gt; \[days=2\] \[reason\]** | !ban 102130103012 raiding | Bans the member from the server. This works even if the member isn't on the server. If you supply a reason, it will show up in the modlogs and in discord's built in audit log. Days refer to the amount of days to purge messages from them. |
 | **muterole &lt;role&gt;** | !muterole kids table | Selects a role to use for the mute command |
 | **muterole create \[name='muted'\]** | !muterole create shhh | Creates a new role, adds the role as a channel override with "send messages" turned off for all text channels and sets it as the server's muterole. |
+| **muterole update** |  | Updates the channel overwrites for the currently chosen muterole in any channels that miss them |
 | **mute &lt;@member&gt; \[time \[reason\]\]** | !mute @Carl\#0001 20h45m spamming | Mutes a member \(using the muterole, read above\) for the specified time. If no time is given, it will mute indefinitely. If a reason is given, it shows up in the mod logs. |
 | **unmute &lt;@member&gt;** | !unmute @Carl\#0001 | Unmutes a member |
 | **kick &lt;@member&gt; \[reason\]** | !kick @Carl\#0001 racism | Kicks a member. Reason shows up in the modlogs and in audit logs |
