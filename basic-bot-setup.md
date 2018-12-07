@@ -1,5 +1,9 @@
 # Basic bot setup
 
+{% hint style="info" %}
+This is much easier done on the website at [https://carl.gg](https://carl.gg)
+{% endhint %}
+
 This guide will cover everything you need to do to get started with everything carlbot offers.
 
 **1. Setting up the prefix**

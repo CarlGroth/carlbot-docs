@@ -10,6 +10,10 @@
 The command **!log aio** automatically creates a category, fills it with five channels and splits up logging into them.
 {% endhint %}
 
+{% hint style="info" %}
+Consider using the website at [https://carl.gg](https://carl.gg)
+{% endhint %}
+
 | Command | Example | Usage |
 | :--- | :--- | :--- |
 | **log channel \[\#channel\]** | !log channel \#logs | Sets the default channel where logged events go. Leave empty to clear the channel. |

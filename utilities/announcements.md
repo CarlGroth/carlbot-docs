@@ -1,6 +1,10 @@
 # Announcements
 
 {% hint style="info" %}
+Timezones suck, use the dashboard at [https://carl.gg](https://carl.gg) to create autofeeds with your local timezone
+{% endhint %}
+
+{% hint style="info" %}
 The id argument is the autofeed id which the bot spits out when you create an autofeed or when you do !af
 {% endhint %}
 
