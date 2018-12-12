@@ -19,7 +19,7 @@
     <tr>
       <td style="text-align:left">postcount top</td>
       <td style="text-align:left">--</td>
-      <td style="text-align:left">Shows the all time 10 most active members as far as the bot's concerned.</td>
+      <td style="text-align:left">Shows the all time 20 most active members as far as the bot's concerned.</td>
     </tr>
     <tr>
       <td style="text-align:left">[aesthetics|ae]
