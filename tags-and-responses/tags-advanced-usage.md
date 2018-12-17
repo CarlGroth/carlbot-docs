@@ -4,117 +4,113 @@ Tags are easy to use, but very powerful. With some ingenuity you can create your
 
 As of writing this, these blocks are:
 
-**Random lists** `#{comma, separated,#{nested args}}`
+**Random lists** `{random: a, b, c}`
 
 Unlike random lists assigned to a variable through variable blocks, unique random lists randomly pick an element each time. This allows for some very nice commands, see the link at the bottom.
 
-**Math blocks** `m{1 + 1 / (3 ^ 9)}`
+**Math blocks** `{math: 1 + 1 / (3 ** 9)}`
 
-Supports relatively advanced math.
+Supports basic math.
 
-`+ - * / ^ % sin cos tan exp abs trunc round sgn log ln log2`
-
-**React blocks** `react{:regional_indicator_f:}` `reactu{:regional_indicator_x:, :regional_indicator_d:}`
+**React blocks** `{react: :regional_indicator_f: :cool_roblox_emoji:}` `{reactu: :regional_indicator_f: :cool_roblox_emoji:}`
 
 This will react to the tag\(react\) or original message \(reactu\) with the emojis placed inside the brackets
 
-Unsure what this could be used for? `!tag create doubt react{:regional_indicator_x:} https://i.imgur.com/EacBuLR.png`
+**50/50 blocks** `{50:Will anyone see me?}`
 
-**50/50 blocks** `?{Will anyone see me?}`
+Has a 50% chance of showing up
 
-**Command blocks** `c{temp stockholm}`
+**Command blocks** `{cmd: temp stockholm}`
 
 Do you think that `!info` really should be called `!whois`? with command blocks you can do just that
 
-`!tag + whois c{info $args}`
+`!tag + whois {cmd: info {args}}`
 
-Maybe you think speak defaulting to 5 uses is an idiotic design choice, simply do
+**Actions** `{dm} {delete} {silence}`
 
-`!tag + betterspeak c{speak 20 $args}`
-
-Important to note is that command tags are effectively not tags in the sense that whatever else you put in a tag won't be sent
-
-**Action blocks** a{_action_} where _action_ is `pm` or `delete` \(or both, comma separated\)
-
-`pm` pms the content of the tag to the user who triggered the tag
+`dm` Redirects output to the user who uses the command
 
 `delete` deletes the message that triggered the tag
 
-**Formatted time blocks** strf{_strftime_}
+`silence` Silences the output of any command being used
+
+**Formatted time blocks** {strf\(optional datetime\): _strftime_}
 
 Returns the current time formatted according to python's strftime, see [http://strftime.org/](http://strftime.org/) for more information.
 
-**Example:** `The current year is strf{%Y} hehe`
+**Example:** `The current year is {str:%Y} hehe`
 
-**Redirection blocks** redirect{\#channel}
+**Advanced** `Your account was created at {strf({user(created_at)}: %x}`
 
-Redirects the output of the tag to the specified channel, the tag user needs to have send message permissions in the pointed channel
+**Redirection blocks** {redirect: \#channel}
 
-**Example:** `$author says: $args redirect{#screaming-out-loud}`
+Redirects the output of the tag to the specified channel, the tag creator needs to have send message permissions in the pointed channel
 
-**Requirement blocks** require{\#channel, member, role}
+**Example:** `{user} says: {args} {redirect:#screaming-out-loud}`
 
-takes roles, members and channels. Feel free to mix these, the logic goes as following: Channels are linked together with OR meaning as long as you use the tag in any of the mentioned channels, the channel logic evaluates to true. Roles are linked together with AND meaning you need all the specified roles. Members are linked together with OR meaning you have to be one of the specified members. Together, these are linked together with AND, meaning you can require a role AND a channel in order for it to work.
+**Requirement blocks** {require:\#channel, role}
 
-**Example:** `require{Cool kids} Word around the office is that $author is kind of a big deal`
+takes roles and channels. 
 
-**Blacklist blocks** blacklist{\#channel, member, role}
+**Example:** `{require:Cool kids} Word around the office is that {user} is kind of a big deal`
+
+**Blacklist blocks** {blacklist:\#channel, role}
 
 works like require but the other way. As soon as it sees an entity that it doesn't like, it will evaluate to false.
 
-**Example:** `blacklist{muted, Carl#0001} Wow, this tag really is for cool people only`
+**Example:** `{blacklist: muted} Wow, you've been a bad boy`
 
-**variable assignment** `!{foo=This can be anything}`
-
-**Unique random list variables** `#variablename{comma, separated, values}`
+**variable assignment** `{let(foo):This can be anything}`
 
 In addition to these blocks, it also comes with a few default arguments. These are:
 
-`$unix` - Unix time, useful for math blocks
+`{unix}` - Unix time, useful for math blocks
 
-`$uses` - The amount of times the tag has been used
+`{uses}` - The amount of times the tag has been used
 
-`$args` - The words after the tag invocation. `!foo bar baz` means $args=bar baz
+`{args}` - The words after the tag invocation. `!foo bar baz` means {args}=bar baz
 
-`$commandargs` - The words after the tag invocation, unlike `$args` this includes mentions in the `<@id>` format \(useful for command blocks\)
+`{user}` - Nickname of the author
 
-`$authorid` - The ID of the person using the command, useful for command blocks
+`{target}` - Like user, except if you mention someone, this variable works for the mentioned user
 
-`$userid` - The ID of the first mention or author if there aren't any
+`{server}` - The name of the server
 
-`$user` - Nickname of the first mentioned user or author if there aren't any mentions
+`{mention}` - Mentions the user of the tag
 
-`$channel` - The name of the channel mentioned or the channel the command was used in
+ Additionally, tagscript 2.0 has better support for various discord objects like members, channels and servers. We call these 'adapters' and let you access certain properties that previously would have been too specific to justify putting in To access a property, you put the property name in parens like {user\(id\)} Right now for tags there are four adapters: user, target, channel and server 
 
-`$server` - The name of the server
+**user & target:** 
 
-`$mention` - The nickname of the first mentioned user or NOTHING if there aren't any mentions
+* **avatar**: The user's avatar
+* **id**: The user's id 
+* **mention**: a string to mention the user
+* **created\_at**: yyyy-mm-dd HH.MM.SS 
+* **joined\_at**: yyyy-mm-dd HH.MM.SS 
+* **color**: hex code 
+* **name**: their actual _username_ 
+* **position**: their position in the role hierarchy
 
-`$nuser` - The _name_ of $user
+**server**
 
-`$nmention` - The _name_ of $mention
+* **icon**: server icon link 
+* **id**: server id 
+* **owner**: name\#discrim format of the server owner 
+* **random**: random member 
+* **randomonline**: random member who is online 
+* **randomoffline**: random member who is offline 
+* **members**: number of members: 
+* **bots**: number of bots 
+* **humans**: number of humans 
+* **roles**: number of roles 
+* **channels**: number of channels 
+* **created\_at**: when the server was created
 
-`$nauthor` - The _name_ of $author
+**channel**
 
-`$authorid` - The ID of the author
-
-`$userid` - The ID of the mentioned user if mentioned or the author if there aren't any mentions
-
-`$serverid` - The ID of the server
-
-`$randommember` - A random member's nickname
-
-`$randomonline` - A random online member's nickname \(online in this case means not-offline i.e. away and busy count as online\)
-
-`$randomoffline` - A random offline member's nickname
-
-`$membercount` - The total number of members in the server
-
-`$humancount` - The total number of non-bots in the server
-
-`$botcount` - The total number of bots in the server
-
-`$1 $2 $3 etc` - Like $args but only the first, second, third word etc. `!foo bar baz` means $1=bar
-
-Still not sure how to use this? [See this link for some interesting and funny tags people have created using TagScript](https://pastebin.com/hXmtSpkF)
+* **id**: the channel id 
+* **topic**: the channel topic 
+* **slowmode**: the current slowmode delay 
+* **position**: the channel's position 
+* **mention**: clickable link to the channel
 
