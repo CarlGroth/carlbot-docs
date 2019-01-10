@@ -38,7 +38,7 @@ Do you think that `!info` really should be called `!whois`? with command blocks 
 
 Returns the current time formatted according to python's strftime, see [http://strftime.org/](http://strftime.org/) for more information.
 
-**Example:** `The current year is {str:%Y} hehe`
+**Example:** `The current year is {strf:%Y} hehe`
 
 **Advanced** `Your account was created at {strf({user(created_at)}: %x}`
 
