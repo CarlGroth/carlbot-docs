@@ -8,17 +8,46 @@ As of writing this, these blocks are:
 
 Unlike random lists assigned to a variable through variable blocks, unique random lists randomly pick an element each time. This allows for some very nice commands, see the link at the bottom.
 
-**Math blocks** `{math: 1 + 1 / (3 ** 9)}`
+Seeded Random `{random(seed): a,b,c}` 
+The same seed will yield the same result every time. Can be anything.
 
-Supports basic math.
+Weighted Random `{random:<weight>|a,<weight>|b,<weight>|c}`
+<weight> works as if it was a shortcut for writing the same option many times. 
+`{random:4|a,2|b}` is the same as `{random:a,a,a,a,b,b}`
+ 
+**Random range** `{range:1-200}` 
 
-**React blocks** `{react: :regional_indicator_f: :cool_roblox_emoji:}` `{reactu: :regional_indicator_f: :cool_roblox_emoji:}`
-
-This will react to the tag\(react\) or original message \(reactu\) with the emojis placed inside the brackets
+Picks a random number between 1 and 200 (inclusive). Can be seeded just as `{random}`
 
 **50/50 blocks** `{50:Will anyone see me?}`
 
 Has a 50% chance of showing up
+
+**Math blocks** `{math: 1 + 1 / (3 ** 9)}`
+
+Supports basic math:
+
+`a+b` addition
+
+`a-b` subtraction
+
+`a*b` multiplication
+
+`a/b` division
+
+`a%b` modulo
+
+`abs(a)` absolute value
+
+`a^b` exponent
+
+`round(a)` ignores numbers past the decimal point
+
+
+**React blocks** `{react: :regional_indicator_f: :cool_roblox_emoji:}` `{reactu: :regional_indicator_f: :cool_roblox_emoji:}`
+
+This will react to the tag \(react\) or original message \(reactu\) with the emojis placed inside the brackets
+
 
 **Command blocks** `{cmd: temp stockholm}`
 
@@ -38,9 +67,9 @@ Do you think that `!info` really should be called `!whois`? with command blocks 
 
 Returns the current time formatted according to python's strftime, see [http://strftime.org/](http://strftime.org/) for more information.
 
-**Example:** `The current year is {strf:%Y} hehe`
+**Examples:** `The current year is {strf:%Y} hehe`
 
-**Advanced** `Your account was created at {strf({user(created_at)}: %x}`
+`Your account was created at {strf({user(created_at)}: %x}`
 
 **Redirection blocks** {redirect: \#channel}
 
@@ -60,9 +89,24 @@ works like require but the other way. As soon as it sees an entity that it doesn
 
 **Example:** `{blacklist: muted} Wow, you've been a bad boy`
 
-**variable assignment** `{let(foo):This can be anything}`
+**Variable assignment** `{let(foo):This can be anything}`
 
-In addition to these blocks, it also comes with a few default arguments. These are:
+You can then use the value in foo with brackets: `{foo}`
+
+**If/Else** `{if(condition):Truthly|(optional) falsy}`
+
+Currently only supports basic operations with `==`, `!=`, `<`, `>`, `<=`, `>=`. 
+Limitations are that you can't use `{redirect}`, `{require}`, or `{let(variable):Assignment}`inside If statements, because those blocks will **always** evaluate, regardless of where they are. 
+
+**Example:** `{if({user(id)}=={target(id)}):You just mentioned yourself or didn't mention anyone.|{user(name)} says {target(name)} is a wuss!}`
+
+**any, all, break** `{any(condition1|condition2|condition3):Will evaluate to true if any of the conditions is true}`
+
+`{all(condition1|condition2|condition3):Will evaluate to true if all of the conditions are true}`
+
+`{break(condition):Will return ONLY what's inside this bracket}`
+
+In addition to these blocks, tagscript also comes with a few default arguments. These are:
 
 `{unix}` - Unix time, useful for math blocks
 
@@ -78,7 +122,7 @@ In addition to these blocks, it also comes with a few default arguments. These a
 
 `{mention}` - Mentions the user of the tag
 
- Additionally, tagscript 2.0 has better support for various discord objects like members, channels and servers. We call these 'adapters' and let you access certain properties that previously would have been too specific to justify putting in To access a property, you put the property name in parens like {user\(id\)} Right now for tags there are four adapters: user, target, channel and server 
+ Additionally, tagscript 2.0 has better support for various discord objects like members, channels and servers. We call these 'adapters' and let you access certain properties that previously would have been too specific to justify putting in. To access a property, you put the property name in parens like {user\(id\)} Right now for tags there are four adapters: user, target, channel and server. 
 
 **user & target:** 
 
