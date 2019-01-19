@@ -29,9 +29,7 @@ Each role can only be assigned once per server.
 | **!rr fixforeign &lt;msg\_id&gt;** | !rr fixforeign 351050906189692938 | Super niche command which can be used to have the bot react to emojis the bot doesn't have access to. One reason you might want to use this is because you want to use google's blob emojis. This command isn't required for these emojis to work, it only makes it so that the bot has its reactions added to the message. **YOU HAVE TO REACT TO THE MESSAGE WITH THE EMOJIS YOURSELF BEFORE USING THIS COMMAND** |
 | **!embed &lt;channel&gt; &lt;color&gt; &lt;title \| description&gt;** | Pick up a role in \#get-roles to get pinged here | Creates an embed. |
 
-![](https://i.imgur.com/moovPZy.png)
-
 [The fastest and most reliable unique reaction roles of any bot.](https://i.imgur.com/A7ShLfZ.mp4)
 
-[An example of me setting up reaction roles in my personal server](https://i.imgur.com/W2KAAPa.png)
+![Me setting up reaction roles in my support server.](../.gitbook/assets/w2kaapa-1.png)
 
