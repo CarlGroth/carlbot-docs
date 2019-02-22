@@ -22,7 +22,7 @@ Picks a random number between 1 and 200 \(inclusive\). Can be seeded just as `{r
 
 Has a 50% chance of showing up
 
-**Math blocks** `{math: 1 + 1 / (3 ** 9)}`
+**Math blocks** `{math: 1 + 1 / (3 ^ 9)}`
 
 Supports basic math:
 
