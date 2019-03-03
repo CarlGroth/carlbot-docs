@@ -50,6 +50,16 @@
         specified timespan (that the bot has seen)</td>
     </tr>
     <tr>
+      <td style="text-align:left">youngest</td>
+      <td style="text-align:left">!youngest</td>
+      <td style="text-align:left">Ranks members by account creation</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">oldest</td>
+      <td style="text-align:left">!oldest</td>
+      <td style="text-align:left">Ranks members by account creation</td>
+    </tr>
+    <tr>
       <td style="text-align:left">[ud|urbandictionary] &lt;word&gt;</td>
       <td style="text-align:left">!ud cleveland steamer</td>
       <td style="text-align:left">Returns the urbandictionary definition for your word. @everyone proof.
