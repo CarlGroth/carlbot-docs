@@ -90,6 +90,11 @@
         list. The names are ordered from oldest to newest.</td>
     </tr>
     <tr>
+      <td style="text-align:left">setnick &lt;member&gt; &lt;name&gt;</td>
+      <td style="text-align:left">!setnick @Carl#0080 Do not ping</td>
+      <td style="text-align:left">Changes the user&apos;s nickname.</td>
+    </tr>
+    <tr>
       <td style="text-align:left">dice [sides] [rolls]</td>
       <td style="text-align:left">!dice 6</td>
       <td style="text-align:left">Rolls a [sides] sided die [rolls] times. Defaults to 6 sides and 1 roll.</td>
