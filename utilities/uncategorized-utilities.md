@@ -52,12 +52,12 @@
     <tr>
       <td style="text-align:left">youngest</td>
       <td style="text-align:left">!youngest</td>
-      <td style="text-align:left">Ranks members by account creation</td>
+      <td style="text-align:left">Ranks members by account creation - Requires Manage Messages</td>
     </tr>
     <tr>
       <td style="text-align:left">oldest</td>
       <td style="text-align:left">!oldest</td>
-      <td style="text-align:left">Ranks members by account creation</td>
+      <td style="text-align:left">Ranks members by account creation - Requires Manage Messages</td>
     </tr>
     <tr>
       <td style="text-align:left">[ud|urbandictionary] &lt;word&gt;</td>
