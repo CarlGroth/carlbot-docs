@@ -25,4 +25,6 @@ These commands are for administrators to manage role assignments in their server
 | **role create &lt;name&gt; \[color\] \[mentionable=False\] \[hoist=False\]** | !role create "cool dude" eeaaee true true | Creates a role. Hoist decides if it shows up in the sidebar or not. |
 | **!allroles** | -- | Displays list of roles in the server and member count assigned to the role. |
 | !role info &lt;role&gt; | !role info fortnite | Displays the role's Name, Member Count, Color, and when it was created. |
+| !role custom &lt;member&gt; &lt;custom\_string&gt; | !role custom @MichaelAus\#9999 +Role 1 -Role 2 | Gives the ability to add and remove roles within a single command, useful for removing a pending role whilst granting a member/joined role. |
+| !rank custom &lt;custom\_string&gt; | !rank custom +Role 1 -Role 2 | Adds/removes multiple roles to the person using the command. Requires roles to be whitelisted. |
 
