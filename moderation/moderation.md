@@ -1,6 +1,8 @@
 # Moderation
 
-
+{% hint style="info" %}
+Purge Commands ignore pinned messages.
+{% endhint %}
 
 | Name | Example | Usage |
 | :--- | :--- | :--- |
