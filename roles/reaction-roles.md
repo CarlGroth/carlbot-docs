@@ -5,7 +5,7 @@ To remove a bot message, simply delete the message like you would delete any oth
 | Name | Example | Usage |
 | :--- | :--- | :--- |
 | **rr \[setup\|make\]** | -- | Starts the interactive setup to get you started with reaction roles |
-| rr \[list\|show\] | -- | Shows the emoji-role pairs and their associated message id, useful for rr add |
+| rr \[list\|show\] \[msg\_id\] | -- | Shows the emoji-role pairs and their associated message id, useful for rr add. If a message id is specified, it will show additional information about that particular reaction role. |
 | **rr edit &lt;msg\_id&gt; &lt;title \| description&gt;** | !rr edit 23094823094823490 Games \| Click on the games you want to be notified by | Edits the title and description, works like it does in the make command |
 | **rr remove &lt;msg\_id&gt; &lt;role&gt;** | !rr remove 493018654405951488  fortnite | Removes an emoji-reaction pair from the specified bot message. |
 | **rr move &lt;base\_id&gt; &lt;target\_id&gt;** | !rr move 493018654405951488 351050906189692938 | Moves the reaction roles from one message to another. This works even if the message was purged \(using the message id found in !rr show\). |
