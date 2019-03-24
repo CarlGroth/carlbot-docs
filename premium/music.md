@@ -2,7 +2,7 @@
 
 
 
-Music is \(at least currently\) a premium feature offered to patrons or those who have donated \(contact Carl\#0001 for a one time payment\)
+Music is \(at least currently\) a premium feature offered to patrons or those who have donated \(see [https://www.paypal.me/carlgr/](https://www.paypal.me/carlgr/) if you don't like patreon, same prices apply\)
 
 [![become a patron](https://c5.patreon.com/external/logo/become_a_patron_button.png)](https://www.patreon.com/bePatron?u=11251319)
 
