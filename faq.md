@@ -25,15 +25,7 @@ For reaction roles already set up you can also use `!rr show`
 
 **How do I get the bot to announce new members joining?**
 
-Two commands are involved.
-
-`!set welcome <#channel>` which will set the channel used for join/leave/ban notifications and
-
-`!welcome <message>` sets the message being sent to the aforementioned channel.
-
-**The confirmation when adding a tag that already exists is super annoying, can I get rid of it?**
-
-Yes! `!tag prompt`
+Use the dashboard! [https://carl.gg](https://carl.gg)
 
 **I don't want normal users creating tags, but I obviously can't disable tag, what do I do?**
 
@@ -45,5 +37,5 @@ Yes it is. The bot tries to detect when you're reading the chat and not spam you
 
 **Another bot has the same command and they both respond, what do I do?**
 
-Depends on what you're after. If you need to use both, you're pretty much forced to change the prefix of either bot. If you're after just the non-carlbot command, you can disable it with `!disable <command>`. If you just want carlbot's command, I suppose you could create an alias using tags and `c{}` see the "Advanced tag usage" section for more information.
+Depends on what you're after. If you need to use both, you're pretty much forced to change the prefix of either bot. If you're after just the non-carlbot command, you can disable it with `!disable <command>`. If you just want carlbot's command, I suppose you could create an alias using tags and `{cmd:cmdname {args}}` see the "Advanced tag usage" section for more information.
 
