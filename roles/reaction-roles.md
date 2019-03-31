@@ -20,7 +20,7 @@ To remove a bot message, simply delete the message like you would delete any oth
 | **rr verify &lt;msg\_id&gt;** | !rr verify 123123123123 | With this enabled, reactions can only assign roles, not take them away. Additionally the bot automatically removes the reaction after the user reacts. This is useful for servers that want a verification reaction |
 | **rr drop &lt;msg\_id&gt;** | !rr drop 123123123123 | Works sort of like rr verify, except it can only remove roles \(and roles are removed when the emoji is added\). This can be used for servers that automatically assign a role that you wish to remove. |
 | **rr normal &lt;msg\_id&gt;** | !rr normal 123123123123 | This returns the reaction role message back to a normal reaction role message. Meaning any commands applied to it such as verify or unique will be removed. |
-| **rr temp &lt;msg\_id&gt; &lt;role&gt; &lt;time&gt;** | !rr temp 2389742349827 New Member 24h | [Patreon only](https://www.patreon.com/carlbot): This allows for roles to be temporarily be assigned to a member and then removed after the designated amount of time. |
+| **rr temp &lt;msg\_id&gt;  &lt;time&gt;** | !rr temp 2389742349827 24h | [Patreon only](https://www.patreon.com/carlbot): This allows for roles to be temporarily be assigned to a member and then removed after the designated amount of time. |
 | **rr reversed &lt;msg\_id&gt;** | !rr reversed 2389742349827 | Reacting removes roles, unreacting adds roles. |
 | **rr lock &lt;msg\_id&gt;** | !rr lock 2389742349827 | Locks the message preventing any roles from being handed out. |
 | **rr limit &lt;msg\_id&gt; &lt;limit&gt;**  | !rr limit 2389742349827 5 | Limits members to picking up x amount of roles from a message. |
