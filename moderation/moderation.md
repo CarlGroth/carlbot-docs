@@ -4,6 +4,10 @@
 Purge Commands ignore pinned messages.
 {% endhint %}
 
+{% hint style="warning" %}
+Lockdown commands removes send messages for the @ everyone role. For this command to work like intended, you must set up your server in a very particular way, where no role that normal users can get access to, grants send messages.
+{% endhint %}
+
 | Name | Example | Usage |
 | :--- | :--- | :--- |
 | **ban &lt;@member/ID&gt; \[days=2\] \[reason\]** | !ban 102130103012 raiding | Bans the member from the server. This works even if the member isn't on the server. If you supply a reason, it will show up in the modlogs and in discord's built in audit log. Days refer to the amount of days to purge messages from them. |
@@ -31,4 +35,8 @@ Purge Commands ignore pinned messages.
 | **purge links \[count=100\]** | !purge links | Purges messages with links |
 | **purge reactions \[count=100\]** | !purge reactions | Purges reactions from messages |
 | **cleanup \[count=100\]** | -- | Sort of like !purge bot except just for carlbot and works for all prefixes |
+| **lockdown &lt;\#channel&gt; &lt;duration&gt;** | !lockdown \#general 20m | Locks the specified channel \(or the one the command is used in if none is specified\) for \[duration\] if specified else forever. |
+| **unlockdown &lt;\#channel&gt;** | !unlockdown \#general |  Undoes what !lockdown does. |
+| **lockdown server &lt;duration&gt;** | !lockdown server 20m | Locks all channels in the server. |
+| **unlockdown server** | !unlockdown server |  Undoes what !lockdown server ****does. |
 
