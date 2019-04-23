@@ -75,10 +75,6 @@ You can add more than one punishment by separating them with commas.
 | **censor punish &lt;punishments...&gt;** | !censor p mute, delete, defer |  Sets up punishments for the words. Defaults to delete and defer |
 | **capslimit &lt;percentage&gt;** | !capslimit 70 | Punishes messages with x% of its characters being uppercase. The message has to be at least 6 characters long. |
 | **\[capspunish\|capsp\]** | !capsp delete | Sets the punishment for sending a message which hits the threshold |
-| **raid basic** | -- | Basic antiraid. Sets verification level to table flip and deletes messages from members who joined less than 30 minutes ago. |
-| **raid strict** | -- | Strict antiraid kicks members who joined less than 30 minutes ago whenever they send a message or join a voice channel. |
-| **raid insane** | -- | Insane antiraid is strict but kicked members who rejoin will immediately be kicked. |
-| **raid off** | -- | Disables the anti-raid \(mentionspam will still be active if you had it\). |
 
 
 
