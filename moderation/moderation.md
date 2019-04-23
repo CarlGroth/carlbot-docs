@@ -5,7 +5,7 @@ Purge Commands ignore pinned messages.
 {% endhint %}
 
 {% hint style="warning" %}
-Lockdown commands removes send messages for the @ everyone role. For this command to work like intended, you must set up your server in a very particular way, where no role that normal users can get access to, grants send messages.
+Locking down a channel denies the @everyone role 'send messages' as an override in the specified channel. Any roles explicitly granting send messages will override this for anyone with that role. Locking down the server removes 'send messages' from the @everyone role. You set up your server correctly by removing send messages from all non-mod roles.
 {% endhint %}
 
 | Name | Example | Usage |
@@ -23,7 +23,7 @@ Lockdown commands removes send messages for the @ everyone role. For this comman
 | **warn &lt;@member&gt; \[reason\]** | !warn @Carl\#0001 do not spam reactions | Warns a user, pms them the reason and posts it to the modlog. |
 | **removewarn &lt;case\_id&gt;** | !removewarn 17 | Removes a warning by its case id. |
 | **clearwarn &lt;@member&gt;** | !clearwarn @Carl\#0001 | Removes all warnings from a user. |
-| **purge \[count=20\]** | !purge 200 | Purges the last howmany messages. |
+| **purge \[count=100\]** | !purge 200 | Purges the last howmany messages. |
 | **purge bot \[count=100\]** | !purge bot ? 20 | Purges the bot messages \(and messages with the specified prefix\) from the last howmany messages. |
 | **purge contains \[count=100\]** | !purge contains thanos | Purges messages containing the substring |
 | **purge user \[count=100\]** | !purge user @Carl\#0001 20 | Purges messages from the user |
