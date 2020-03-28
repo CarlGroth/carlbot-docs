@@ -123,14 +123,9 @@
       <td style="text-align:left">Displays server information.</td>
     </tr>
     <tr>
-      <td style="text-align:left">
-        <p><b>spacemychannel</b>
-        </p>
-        <p><b>&lt;channel&gt;</b>
-        </p>
-      </td>
+      <td style="text-align:left">spacemychannel &lt;channel&gt;</td>
       <td style="text-align:left">!spacemychannel #test-channel</td>
-      <td style="text-align:left">Removes the - and _ in channel names replacing with a space.</td>
+      <td style="text-align:left">Removes the - and _ in channel names replacing with a space. (Currently broken due to Discord patching the bug that allowed this.)</td>
     </tr>
   </tbody>
 </table>
