@@ -19,5 +19,5 @@ Autoresponses are not custom commands, if you want things that are triggered by 
 | **ar ignore &lt;members or channels...&gt;** | !ar ignore @Carl\#0001 @Kintark\#0588 \#general  @idiotuser\#1337 \#welcome | Blocks channels and or users from triggering responses |
 | **ar unignore &lt;members or channels...&gt;** | !ar unignore \#general @Carl\#0001 | Undoes what !ar ignore does |
 
-Autoreactions support most of tagscript, see [Tags - Advanced usage to learn more](https://docs.carl.gg/tags-and-responses/tags-advanced-usage)
+Autoreactions support most of tagscript, see [Tags - Advanced usage to learn more](https://docs.carl.gg/tags-and-triggers/tags-advanced-usage/)
 
