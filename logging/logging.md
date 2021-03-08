@@ -16,6 +16,7 @@ Consider using the website at [https://carl.gg](https://carl.gg)
 
 | Command | Example | Usage |
 | :--- | :--- | :--- |
+| **log** | !log | Display all log settings |
 | **log channel \[\#channel\]** | !log channel \#logs | Sets the default channel where logged events go. Leave empty to clear the channel. |
 | **log \[event\]** | !log channelcreate | Toggles an event from being logged or not. Leave blank to see current settings. |
 | **log messagechannel \[\#channel\]** | !log messagechannel \#msglog | Sets the channel where message events are logged to. |
@@ -43,6 +44,7 @@ Each event that Carl-bot logs has an associated value and channel. The values ar
 | edit | Message edits | 2 | messagechannel |
 | purge | Bulk message deletion | 4 | messagechannel |
 | discord | Discord invites posted | 2097152 | messagechannel |
+| name | Member name updates | -- | memberchannel |
 | role | Member role updates | 8 | memberchannel |
 | avatar | Avatar updates | 32 | memberchannel |
 | bans | Bans and unbans | 192 | memberchannel |
