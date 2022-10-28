@@ -1,5 +1,7 @@
 # Home
 
+# This is a dead repo
+
 ## How do I read this wiki?
 
 {% hint style="danger" %}
