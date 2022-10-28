@@ -2,6 +2,8 @@
 
 # This is a dead repo
 
+I (Carl) no longer own carlbot, so this is not the repo you should make PRs to
+
 ## How do I read this wiki?
 
 {% hint style="danger" %}
